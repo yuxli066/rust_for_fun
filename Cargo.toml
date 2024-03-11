@@ -1,0 +1,12 @@
+[package]
+name = "rocket_hello_world"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rocket = { version = "0.5.0", features = ["json"] }
+reqwest = "0.11.24" 
+lru_time_cache = "0.11.11"
+url-escape = "0.1.1"
